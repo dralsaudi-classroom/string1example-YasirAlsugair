@@ -50,4 +50,6 @@ public class String1 {
         for(int i=0;i<reverser.length();i++) {
         	this.append(reverser.getChar(i));
         }
+       
+    }
 }
