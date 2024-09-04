@@ -41,10 +41,13 @@ public class String1 {
        return isequal;
     }
     public void reverse() {
-    	String1 reversed=new String1();
-        for(int i=this.length()-1;i>this.length();i--) {
-        	reversed.append(this.getChar(i));
+    	String1 reverser =new String1();
+    	
+        for(int i=this.length()-1;i>-1;i--) {
+        	reverser.append(this.getChar(i));
         }
-        this.str=reversed.str;
-    }
+        this.makeEmpty();
+        for(int i=0;i<reverser.length();i++) {
+        	this.append(reverser.getChar(i));
+        }
 }
