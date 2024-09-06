@@ -49,6 +49,7 @@ public class String1 {
         this.makeEmpty();
         for(int i=0;i<reverser.length();i++) {
         	this.append(reverser.getChar(i));
+        	//test
         }
        
     }
